@@ -95,7 +95,7 @@ fi
 echo "当前 Go 版本："
 go version
 
-
+source ~/.bashrc
 if [ -d "/data/airchains/evm-station" ]; then
     rm -rf /data/airchains/evm-station
 fi
