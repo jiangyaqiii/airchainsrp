@@ -3,7 +3,7 @@
 service_name="stationd"
 
 if systemctl is-active --quiet $service_name; then
-    echo "$service_name is running."
+    echo "airchains"
 else
-    echo "$service_name is not running."
+    echo "未运行"
 fi
